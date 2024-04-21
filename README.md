@@ -6,6 +6,8 @@ After the session, very limited information about what was discussed during the 
 ## Important Notes
 Any of the scripts will require the definition of variables within them.  Just a word of caution as you start trying to deploy them in your environment.
 
+It is also highly recommended you spin up a virtualenv to run these scripts. 
+
 # Design
 This application set works in three phases.  All of these phases are initially seeded by the recorded video and audio from live sessions.  It is worth noting that I have included the iterations of these scripts so that it is clear how they have been calibrated and what changed over time.
 
