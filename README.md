@@ -13,7 +13,9 @@ This application set works in three phases.  All of these phases are initially s
 
 ## Phase 1
 **Separate the Channels**: 
-In order to minimize the amount of language processing, the first step is to split the file channels into video and audio.  In testing the ffmpeg package, a program designed for this type of parsing, it became clear that it was more efficient to only keep the audio file and ignore the video components for the purposes of this output.  Knowing there might be situations where both were necessary, the script "audio-video-filesplit-plus-diagnostics" asks a user what they want to do with the AV processing.
+In order to minimize the amount of language processing, the first step is to split the file channels into video and audio.  For the **purposes of following the logic** this repo maintains all the iterations on these scripts with a sequential numbering system.  The most recent is the latest functional version.  
+
+In testing the ffmpeg package, a program designed for this type of parsing, it became clear that it was more efficient to only keep the audio file and ignore the video components for the purposes of this output.  Knowing there might be situations where both were necessary, the script "audio-video-filesplit-plus-diagnostics" asks a user what they want to do with the AV processing.
 
 ## Phase 2
 **Transcribe the Audio**:
