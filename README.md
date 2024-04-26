@@ -25,7 +25,9 @@ Open source transcription is showing to be incredibly accurate in the ability to
 
 The main issue with most AI applications is that you are sending your data to someone else's server.  So this next step was about finding a local LLM deployment which could be called and processed on a local machine.  The package used for these purposes was whisper-ai.
 
-This was a preliminary test of the application and it was effective.  However, it is yet to be seen how to properly incorporate time stamp markers as well as separation of speakers.  It appears that having more audio channels would allow this to be calibrated, but it is a current deficiency of the model.
+This was a preliminary test of the application and it was effective.  Note that I tested this using the large, medium, and small models.  The large model took a very long time as I have not figured out how to call the GPU for processing using whisper.  The small and medium models were very effective and saved significant time.  
+
+In future use cases I'll want to look into how to properly incorporate time stamp markers as well as separation of speakers.  It appears that having more audio channels would allow this to be calibrated, but there are some layered needs to make this work that are not all prebuilt into the whisper functionality.
 
 ## [Step 3 - Interpret](https://github.com/lexDAO/open-ai/tree/main/Step%203%20-%20Interpret)
 **Meaning Extraction**
