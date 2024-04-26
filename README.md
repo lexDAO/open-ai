@@ -8,8 +8,10 @@ Any of the scripts will require the definition of variables within them.  Pay ex
 
 It is also highly recommended you spin up a virtualenv to run these scripts. 
 
+Lastly, in any repo with a "sequence" of numbers attached to the same file name, the most current is the working version and most complete.
+
 # Design
-This application set works in three phases.  All of these phases are initially seeded by the recorded video and audio from live sessions.  It is worth noting that I have included the iterations of these scripts so that it is clear how they have been calibrated and what changed over time.
+This application set works in three phases.  All of these phases are initially seeded by the recorded video and audio from live sessions.  It is worth noting that I have included the iterations of these scripts so that it is clear how they have been calibrated and what changed over time.  Look for the version with the highest number.
 
 ## [Step 1 - File Processing](https://github.com/lexDAO/open-ai/tree/main/Step%201%20-%20File%20Processing)
 **Separate the Channels**: 
