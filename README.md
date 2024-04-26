@@ -4,7 +4,7 @@ repository of video recordings from LexDAO's recent event in Denver in Q1 2024.
 After the session, very limited information about what was discussed during the panels was received and there was strong recorded content that was produced.  This experiment is an attempt to speed the process of getting context on large amounts of spoken material in an efficient way.
 
 ## Important Notes
-Any of the scripts will require the definition of variables within them.  Just a word of caution as you start trying to deploy them in your environment.
+Any of the scripts will require the definition of variables within them.  Pay extra attention here.  Just a word of caution as you start trying to deploy them in your environment.
 
 It is also highly recommended you spin up a virtualenv to run these scripts. 
 
